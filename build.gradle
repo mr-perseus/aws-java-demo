@@ -45,6 +45,6 @@ dependencies {
     compile files("lib/joda-time-2.8.1.jar")
 }
 
-task wrapper(type: Wrapper) {
+wrapper {
     gradleVersion = '2.3'
 }
